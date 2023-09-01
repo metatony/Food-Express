@@ -36,7 +36,7 @@ class _NearByState extends State<NearBy> {
                 padding: EdgeInsets.all(fixPadding),
                 margin: EdgeInsets.only(top: 5.0, bottom: 5.0, right: 5.0),
                 decoration: BoxDecoration(
-                  color: Colors.grey.withOpacity(0.2),
+                  color: Colors.green.withOpacity(0.2),
                   borderRadius: BorderRadius.circular(5.0),
                 ),
                 alignment: Alignment.center,
@@ -62,7 +62,7 @@ class _NearByState extends State<NearBy> {
           ],
           bottom: TabBar(
             isScrollable: true,
-            unselectedLabelColor: Colors.grey.withOpacity(0.3),
+            unselectedLabelColor: Colors.green.withOpacity(0.3),
             labelColor: primaryColor,
             indicatorColor: primaryColor,
             tabs: [

@@ -48,7 +48,7 @@ class Profile extends StatelessWidget {
                           alignment: Alignment.center,
                           padding: EdgeInsets.all(10.0),
                           decoration: BoxDecoration(
-                            color: Colors.grey[300],
+                            color: Colors.green[300],
                             borderRadius: BorderRadius.circular(5.0),
                           ),
                           child: Text(
@@ -145,7 +145,7 @@ class Profile extends StatelessWidget {
                   Icon(
                     Icons.arrow_forward_ios,
                     size: 16.0,
-                    color: Colors.grey.withOpacity(0.6),
+                    color: Colors.green.withOpacity(0.6),
                   ),
                 ],
               ),
@@ -161,7 +161,7 @@ class Profile extends StatelessWidget {
                 BoxShadow(
                   blurRadius: 1.5,
                   spreadRadius: 1.5,
-                  color: Colors.grey[200]!,
+                  color: Colors.green[200]!,
                 ),
               ],
             ),
@@ -172,7 +172,7 @@ class Profile extends StatelessWidget {
                     Navigator.push(context, PageTransition(type: PageTransitionType.rightToLeft, child: PaymentMethods()));
                   },
                   child: getTile(
-                      Icon(Icons.payment, color: Colors.grey.withOpacity(0.6)),
+                      Icon(Icons.payment, color: Colors.green.withOpacity(0.6)),
                       'Payment Methods'),
                 ),
                 InkWell(
@@ -181,14 +181,14 @@ class Profile extends StatelessWidget {
                   },
                   child: getTile(
                       Icon(Icons.location_on,
-                          color: Colors.grey.withOpacity(0.6)),
+                          color: Colors.green.withOpacity(0.6)),
                       'Address'),
                 ),
                 InkWell(
                   onTap: () {},
                   child: getTile(
                       Icon(Icons.local_activity,
-                          color: Colors.grey.withOpacity(0.6)),
+                          color: Colors.green.withOpacity(0.6)),
                       'My Vouchers'),
                 ),
               ],
@@ -204,7 +204,7 @@ class Profile extends StatelessWidget {
                 BoxShadow(
                   blurRadius: 1.5,
                   spreadRadius: 1.5,
-                  color: Colors.grey[200]!,
+                  color: Colors.green[200]!,
                 ),
               ],
             ),
@@ -216,33 +216,33 @@ class Profile extends StatelessWidget {
                   },
                   child: getTile(
                       Icon(Icons.notifications,
-                          color: Colors.grey.withOpacity(0.6)),
+                          color: Colors.green.withOpacity(0.6)),
                       'Notifications'),
                 ),
                 InkWell(
                   onTap: () {},
                   child: getTile(
-                      Icon(Icons.language, color: Colors.grey.withOpacity(0.6)),
+                      Icon(Icons.language, color: Colors.green.withOpacity(0.6)),
                       'Language'),
                 ),
                 InkWell(
                   onTap: () {},
                   child: getTile(
-                      Icon(Icons.settings, color: Colors.grey.withOpacity(0.6)),
+                      Icon(Icons.settings, color: Colors.green.withOpacity(0.6)),
                       'Settings'),
                 ),
                 InkWell(
                   onTap: () {},
                   child: getTile(
                       Icon(Icons.group_add,
-                          color: Colors.grey.withOpacity(0.6)),
+                          color: Colors.green.withOpacity(0.6)),
                       'Invite Friends'),
                 ),
                 InkWell(
                   onTap: () {},
                   child: getTile(
                       Icon(Icons.headset_mic,
-                          color: Colors.grey.withOpacity(0.6)),
+                          color: Colors.green.withOpacity(0.6)),
                       'Support'),
                 ),
               ],
@@ -258,7 +258,7 @@ class Profile extends StatelessWidget {
                 BoxShadow(
                   blurRadius: 1.5,
                   spreadRadius: 1.5,
-                  color: Colors.grey[200]!,
+                  color: Colors.green[200]!,
                 ),
               ],
             ),
@@ -268,7 +268,7 @@ class Profile extends StatelessWidget {
                   onTap: logoutDialogue,
                   child: getTile(
                       Icon(Icons.exit_to_app,
-                          color: Colors.grey.withOpacity(0.6)),
+                          color: Colors.green.withOpacity(0.6)),
                       'Logout'),
                 ),
               ],
@@ -304,7 +304,7 @@ class Profile extends StatelessWidget {
         Icon(
           Icons.arrow_forward_ios,
           size: 16.0,
-          color: Colors.grey.withOpacity(0.6),
+          color: Colors.green.withOpacity(0.6),
         ),
       ],
     );

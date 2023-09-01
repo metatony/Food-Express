@@ -53,7 +53,7 @@ class _AddressState extends State<Address> {
                       BoxShadow(
                         blurRadius: 1.5,
                         spreadRadius: 1.5,
-                        color: Colors.grey[200]!,
+                        color: Colors.green[200]!,
                       ),
                     ],
                   ),
@@ -77,7 +77,7 @@ class _AddressState extends State<Address> {
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: <Widget>[
                                     Icon(Icons.location_on,
-                                        color: Colors.grey.withOpacity(0.7)),
+                                        color: Colors.green.withOpacity(0.7)),
                                     widthSpace,
                                     Container(
                                       width: width -
@@ -95,7 +95,7 @@ class _AddressState extends State<Address> {
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: <Widget>[
                                     Icon(Icons.person,
-                                        color: Colors.grey.withOpacity(0.7)),
+                                        color: Colors.green.withOpacity(0.7)),
                                     widthSpace,
                                     Container(
                                       width: width -
@@ -113,7 +113,7 @@ class _AddressState extends State<Address> {
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: <Widget>[
                                     Icon(Icons.phone,
-                                        color: Colors.grey.withOpacity(0.7)),
+                                        color: Colors.green.withOpacity(0.7)),
                                     widthSpace,
                                     Container(
                                       width: width -
@@ -133,7 +133,7 @@ class _AddressState extends State<Address> {
                       Icon(
                         Icons.arrow_forward_ios,
                         size: 16.0,
-                        color: Colors.grey.withOpacity(0.6),
+                        color: Colors.green.withOpacity(0.6),
                       ),
                     ],
                   ),
@@ -152,7 +152,7 @@ class _AddressState extends State<Address> {
                       BoxShadow(
                         blurRadius: 1.5,
                         spreadRadius: 1.5,
-                        color: Colors.grey[200]!,
+                        color: Colors.green[200]!,
                       ),
                     ],
                   ),
@@ -176,7 +176,7 @@ class _AddressState extends State<Address> {
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: <Widget>[
                                     Icon(Icons.location_on,
-                                        color: Colors.grey.withOpacity(0.7)),
+                                        color: Colors.green.withOpacity(0.7)),
                                     widthSpace,
                                     Container(
                                       width: width -
@@ -194,7 +194,7 @@ class _AddressState extends State<Address> {
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: <Widget>[
                                     Icon(Icons.person,
-                                        color: Colors.grey.withOpacity(0.7)),
+                                        color: Colors.green.withOpacity(0.7)),
                                     widthSpace,
                                     Container(
                                       width: width -
@@ -212,7 +212,7 @@ class _AddressState extends State<Address> {
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: <Widget>[
                                     Icon(Icons.phone,
-                                        color: Colors.grey.withOpacity(0.7)),
+                                        color: Colors.green.withOpacity(0.7)),
                                     widthSpace,
                                     Container(
                                       width: width -
@@ -232,7 +232,7 @@ class _AddressState extends State<Address> {
                       Icon(
                         Icons.arrow_forward_ios,
                         size: 16.0,
-                        color: Colors.grey.withOpacity(0.6),
+                        color: Colors.green.withOpacity(0.6),
                       ),
                     ],
                   ),
@@ -243,7 +243,7 @@ class _AddressState extends State<Address> {
                 // Add New Address Start
                 DottedBorder(
                   borderType: BorderType.RRect,
-                  color: Colors.grey.withOpacity(0.7),
+                  color: Colors.green.withOpacity(0.7),
                   radius: Radius.circular(12),
                   padding: EdgeInsets.all(6),
                   child: ClipRRect(

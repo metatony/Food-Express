@@ -262,7 +262,7 @@ class _TrackOrderState extends State<TrackOrder> {
                               (fourStar == true) ||
                               (fiveStar == true))
                           ? Colors.orange
-                          : Colors.grey.withOpacity(0.6),
+                          : Colors.green.withOpacity(0.6),
                     ),
                   ),
                   widthSpace,
@@ -279,7 +279,7 @@ class _TrackOrderState extends State<TrackOrder> {
                               (fourStar == true) ||
                               (fiveStar == true))
                           ? Colors.orange
-                          : Colors.grey.withOpacity(0.6),
+                          : Colors.green.withOpacity(0.6),
                     ),
                   ),
                   widthSpace,
@@ -295,7 +295,7 @@ class _TrackOrderState extends State<TrackOrder> {
                               (fourStar == true) ||
                               (fiveStar == true))
                           ? Colors.orange
-                          : Colors.grey.withOpacity(0.6),
+                          : Colors.green.withOpacity(0.6),
                     ),
                   ),
                   widthSpace,
@@ -309,7 +309,7 @@ class _TrackOrderState extends State<TrackOrder> {
                       size: 35.0,
                       color: ((fourStar == true) || (fiveStar == true))
                           ? Colors.orange
-                          : Colors.grey.withOpacity(0.6),
+                          : Colors.green.withOpacity(0.6),
                     ),
                   ),
                   widthSpace,
@@ -323,7 +323,7 @@ class _TrackOrderState extends State<TrackOrder> {
                       size: 35.0,
                       color: ((fiveStar == true))
                           ? Colors.orange
-                          : Colors.grey.withOpacity(0.6),
+                          : Colors.green.withOpacity(0.6),
                     ),
                   ),
                 ],
@@ -850,19 +850,19 @@ class _TrackOrderState extends State<TrackOrder> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Icon(Icons.star,
-                    size: 35.0, color: Colors.grey.withOpacity(0.6)),
+                    size: 35.0, color: Colors.green.withOpacity(0.6)),
                 widthSpace,
                 Icon(Icons.star,
-                    size: 35.0, color: Colors.grey.withOpacity(0.6)),
+                    size: 35.0, color: Colors.green.withOpacity(0.6)),
                 widthSpace,
                 Icon(Icons.star,
-                    size: 35.0, color: Colors.grey.withOpacity(0.6)),
+                    size: 35.0, color: Colors.green.withOpacity(0.6)),
                 widthSpace,
                 Icon(Icons.star,
-                    size: 35.0, color: Colors.grey.withOpacity(0.6)),
+                    size: 35.0, color: Colors.green.withOpacity(0.6)),
                 widthSpace,
                 Icon(Icons.star,
-                    size: 35.0, color: Colors.grey.withOpacity(0.6)),
+                    size: 35.0, color: Colors.green.withOpacity(0.6)),
               ],
             ),
           ),

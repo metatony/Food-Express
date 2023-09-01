@@ -72,7 +72,7 @@ class _EditProfileState extends State<EditProfile> {
                           alignment: Alignment.center,
                           padding: EdgeInsets.all(10.0),
                           decoration: BoxDecoration(
-                            color: Colors.grey[300],
+                            color: Colors.green[300],
                             borderRadius: BorderRadius.circular(5.0),
                           ),
                           child: Text(
@@ -185,7 +185,7 @@ class _EditProfileState extends State<EditProfile> {
                           alignment: Alignment.center,
                           padding: EdgeInsets.all(10.0),
                           decoration: BoxDecoration(
-                            color: Colors.grey[300],
+                            color: Colors.green[300],
                             borderRadius: BorderRadius.circular(5.0),
                           ),
                           child: Text(
@@ -268,7 +268,7 @@ class _EditProfileState extends State<EditProfile> {
                           alignment: Alignment.center,
                           padding: EdgeInsets.all(10.0),
                           decoration: BoxDecoration(
-                            color: Colors.grey[300],
+                            color: Colors.green[300],
                             borderRadius: BorderRadius.circular(5.0),
                           ),
                           child: Text(
@@ -354,7 +354,7 @@ class _EditProfileState extends State<EditProfile> {
                           alignment: Alignment.center,
                           padding: EdgeInsets.all(10.0),
                           decoration: BoxDecoration(
-                            color: Colors.grey[300],
+                            color: Colors.green[300],
                             borderRadius: BorderRadius.circular(5.0),
                           ),
                           child: Text(
@@ -507,7 +507,7 @@ class _EditProfileState extends State<EditProfile> {
           BoxShadow(
             blurRadius: 1.5,
             spreadRadius: 1.5,
-            color: Colors.grey[200]!,
+            color: Colors.green[200]!,
           ),
         ],
       ),
@@ -540,7 +540,7 @@ class _EditProfileState extends State<EditProfile> {
           Icon(
             Icons.arrow_forward_ios,
             size: 16.0,
-            color: Colors.grey.withOpacity(0.6),
+            color: Colors.green.withOpacity(0.6),
           ),
         ],
       ),

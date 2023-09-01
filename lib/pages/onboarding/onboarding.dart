@@ -23,7 +23,7 @@ class _OnBoardingState extends State<OnBoarding> {
       height: isCurrentPage ? 10.0 : 6.0,
       width: isCurrentPage ? 10.0 : 6.0,
       decoration: BoxDecoration(
-        color: isCurrentPage ? Colors.grey : Colors.grey[300],
+        color: isCurrentPage ? Colors.green : Colors.green[300],
         borderRadius: BorderRadius.circular(12),
       ),
     );

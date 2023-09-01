@@ -116,20 +116,20 @@ class _ReviewSectionState extends State<ReviewSection> {
                           Icon(Icons.star, color: Colors.orange, size: 18.0),
                           Icon(Icons.star,
                               color: (item['rating'] == '1')
-                                  ? Colors.grey[300]
+                                  ? Colors.green[300]
                                   : Colors.orange,
                               size: 18.0),
                           Icon(Icons.star,
                               color: (item['rating'] == '1' ||
                                       item['rating'] == '2')
-                                  ? Colors.grey[300]
+                                  ? Colors.green[300]
                                   : Colors.orange,
                               size: 18.0),
                           Icon(Icons.star,
                               color: (item['rating'] == '1' ||
                                       item['rating'] == '2' ||
                                       item['rating'] == '3')
-                                  ? Colors.grey[300]
+                                  ? Colors.green[300]
                                   : Colors.orange,
                               size: 18.0),
                           Icon(Icons.star,
@@ -137,7 +137,7 @@ class _ReviewSectionState extends State<ReviewSection> {
                                       item['rating'] == '2' ||
                                       item['rating'] == '3' ||
                                       item['rating'] == '4')
-                                  ? Colors.grey[300]
+                                  ? Colors.green[300]
                                   : Colors.orange,
                               size: 18.0),
                         ],

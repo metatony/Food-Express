@@ -42,7 +42,7 @@ class _FoodsTabDataState extends State<FoodsTabData> {
               children: <Widget>[
                 Icon(
                   Icons.bookmark_border,
-                  color: Colors.grey,
+                  color: Colors.green,
                   size: 60.0,
                 ),
                 SizedBox(

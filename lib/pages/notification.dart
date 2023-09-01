@@ -47,7 +47,7 @@ class _NotificationsState extends State<Notifications> {
                 children: <Widget>[
                   Icon(
                     FontAwesomeIcons.bellSlash,
-                    color: Colors.grey,
+                    color: Colors.green,
                     size: 60.0,
                   ),
                   SizedBox(

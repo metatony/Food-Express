@@ -110,7 +110,7 @@ class _OTPScreenState extends State<OTPScreen> {
                           BoxShadow(
                             blurRadius: 1.5,
                             spreadRadius: 1.5,
-                            color: Colors.grey.shade200,
+                            color: Colors.green.shade200,
                           ),
                         ],
                       ),
@@ -141,7 +141,7 @@ class _OTPScreenState extends State<OTPScreen> {
                           BoxShadow(
                             blurRadius: 1.5,
                             spreadRadius: 1.5,
-                            color: Colors.grey.shade200,
+                            color: Colors.green.shade200,
                           ),
                         ],
                       ),
@@ -173,7 +173,7 @@ class _OTPScreenState extends State<OTPScreen> {
                           BoxShadow(
                             blurRadius: 1.5,
                             spreadRadius: 1.5,
-                            color: Colors.grey.shade200,
+                            color: Colors.green.shade200,
                           ),
                         ],
                       ),
@@ -205,7 +205,7 @@ class _OTPScreenState extends State<OTPScreen> {
                           BoxShadow(
                             blurRadius: 1.5,
                             spreadRadius: 1.5,
-                            color: Colors.grey.shade200,
+                            color: Colors.green.shade200,
                           ),
                         ],
                       ),

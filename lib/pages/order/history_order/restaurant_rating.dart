@@ -296,7 +296,7 @@ class _RestaurantRatingState extends State<RestaurantRating> {
                         (fourStar == true) ||
                         (fiveStar == true))
                     ? Colors.orange
-                    : Colors.grey.withOpacity(0.6),
+                    : Colors.green.withOpacity(0.6),
               ),
             ),
             widthSpace,
@@ -313,7 +313,7 @@ class _RestaurantRatingState extends State<RestaurantRating> {
                         (fourStar == true) ||
                         (fiveStar == true))
                     ? Colors.orange
-                    : Colors.grey.withOpacity(0.6),
+                    : Colors.green.withOpacity(0.6),
               ),
             ),
             widthSpace,
@@ -329,7 +329,7 @@ class _RestaurantRatingState extends State<RestaurantRating> {
                         (fourStar == true) ||
                         (fiveStar == true))
                     ? Colors.orange
-                    : Colors.grey.withOpacity(0.6),
+                    : Colors.green.withOpacity(0.6),
               ),
             ),
             widthSpace,
@@ -343,7 +343,7 @@ class _RestaurantRatingState extends State<RestaurantRating> {
                 size: 35.0,
                 color: ((fourStar == true) || (fiveStar == true))
                     ? Colors.orange
-                    : Colors.grey.withOpacity(0.6),
+                    : Colors.green.withOpacity(0.6),
               ),
             ),
             widthSpace,
@@ -357,7 +357,7 @@ class _RestaurantRatingState extends State<RestaurantRating> {
                 size: 35.0,
                 color: ((fiveStar == true))
                     ? Colors.orange
-                    : Colors.grey.withOpacity(0.6),
+                    : Colors.green.withOpacity(0.6),
               ),
             ),
           ],
@@ -379,7 +379,7 @@ class _RestaurantRatingState extends State<RestaurantRating> {
             borderRadius: BorderRadius.circular(5.0),
             borderSide: BorderSide(color: Colors.transparent),
           ),
-          fillColor: Colors.grey.withOpacity(0.1),
+          fillColor: Colors.green.withOpacity(0.1),
           filled: true,
         ),
       ),

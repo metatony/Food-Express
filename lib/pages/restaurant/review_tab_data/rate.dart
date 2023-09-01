@@ -50,7 +50,7 @@ class RateSection extends StatelessWidget {
               heightSpace,
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),
-                child: Icon(Icons.star, color: Colors.grey[300], size: 18.0,),
+                child: Icon(Icons.star, color: Colors.green[300], size: 18.0,),
               ),
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),
@@ -80,11 +80,11 @@ class RateSection extends StatelessWidget {
               heightSpace,
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),
-                child: Icon(Icons.star, color: Colors.grey[300], size: 18.0,),
+                child: Icon(Icons.star, color: Colors.green[300], size: 18.0,),
               ),
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),
-                child: Icon(Icons.star, color: Colors.grey[300], size: 18.0,),
+                child: Icon(Icons.star, color: Colors.green[300], size: 18.0,),
               ),
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),
@@ -110,15 +110,15 @@ class RateSection extends StatelessWidget {
               heightSpace,
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),
-                child: Icon(Icons.star, color: Colors.grey[300], size: 18.0,),
+                child: Icon(Icons.star, color: Colors.green[300], size: 18.0,),
               ),
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),
-                child: Icon(Icons.star, color: Colors.grey[300], size: 18.0,),
+                child: Icon(Icons.star, color: Colors.green[300], size: 18.0,),
               ),
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),
-                child: Icon(Icons.star, color: Colors.grey[300], size: 18.0,),
+                child: Icon(Icons.star, color: Colors.green[300], size: 18.0,),
               ),
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),
@@ -139,19 +139,19 @@ class RateSection extends StatelessWidget {
               heightSpace,
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),
-                child: Icon(Icons.star, color: Colors.grey[300], size: 18.0,),
+                child: Icon(Icons.star, color: Colors.green[300], size: 18.0,),
               ),
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),
-                child: Icon(Icons.star, color: Colors.grey[300], size: 18.0,),
+                child: Icon(Icons.star, color: Colors.green[300], size: 18.0,),
               ),
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),
-                child: Icon(Icons.star, color: Colors.grey[300], size: 18.0,),
+                child: Icon(Icons.star, color: Colors.green[300], size: 18.0,),
               ),
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),
-                child: Icon(Icons.star, color: Colors.grey[300], size: 18.0,),
+                child: Icon(Icons.star, color: Colors.green[300], size: 18.0,),
               ),
               Padding(
                 padding: EdgeInsets.only(bottom: fixPadding/2),

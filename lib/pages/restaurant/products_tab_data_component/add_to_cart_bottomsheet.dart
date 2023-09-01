@@ -263,7 +263,7 @@ void productDescriptionModalBottomSheet(context, height) {
                                                       BorderRadius.circular(
                                                           13.0),
                                                   color: (initialItemCount == 1)
-                                                      ? Colors.grey[300]
+                                                      ? Colors.green[300]
                                                       : primaryColor,
                                                 ),
                                                 child: Icon(

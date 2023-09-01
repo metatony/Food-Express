@@ -23,7 +23,7 @@ class _OrderState extends State<Order> {
             style: bigHeadingStyle,
           ),
           bottom: TabBar(
-            unselectedLabelColor: Colors.grey.withOpacity(0.3),
+            unselectedLabelColor: Colors.green.withOpacity(0.3),
             labelColor: primaryColor,
             indicatorColor: primaryColor,
             tabs: [

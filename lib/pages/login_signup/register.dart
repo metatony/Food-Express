@@ -61,7 +61,7 @@ class _RegisterState extends State<Register> {
                       BoxShadow(
                         blurRadius: 1.5,
                         spreadRadius: 1.5,
-                        color: Colors.grey[200]!,
+                        color: Colors.green[200]!,
                       ),
                     ],
                   ),
@@ -88,7 +88,7 @@ class _RegisterState extends State<Register> {
                       BoxShadow(
                         blurRadius: 1.5,
                         spreadRadius: 1.5,
-                        color: Colors.grey[200]!,
+                        color: Colors.green[200]!,
                       ),
                     ],
                   ),
@@ -116,7 +116,7 @@ class _RegisterState extends State<Register> {
                       BoxShadow(
                         blurRadius: 1.5,
                         spreadRadius: 1.5,
-                        color: Colors.grey[200]!,
+                        color: Colors.green[200]!,
                       ),
                     ],
                   ),

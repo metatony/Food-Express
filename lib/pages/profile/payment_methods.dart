@@ -72,7 +72,7 @@ class _PaymentMethodsState extends State<PaymentMethods> {
           BoxShadow(
             blurRadius: 1.5,
             spreadRadius: 1.5,
-            color: Colors.grey[200]!,
+            color: Colors.green[200]!,
           ),
         ],
       ),
@@ -100,7 +100,7 @@ class _PaymentMethodsState extends State<PaymentMethods> {
             icon: Icon(
               Icons.close,
               size: 16.0,
-              color: Colors.grey.withOpacity(0.6),
+              color: Colors.green.withOpacity(0.6),
             ),
             onPressed: () {
               setState(() {
@@ -146,7 +146,7 @@ class _PaymentMethodsState extends State<PaymentMethods> {
                   BoxShadow(
                     blurRadius: 1.5,
                     spreadRadius: 1.5,
-                    color: Colors.grey[200]!,
+                    color: Colors.green[200]!,
                   ),
                 ],
               ),
@@ -172,7 +172,7 @@ class _PaymentMethodsState extends State<PaymentMethods> {
                   Icon(
                     Icons.keyboard_arrow_down,
                     size: 16.0,
-                    color: Colors.grey.withOpacity(0.6),
+                    color: Colors.green.withOpacity(0.6),
                   ),
                 ],
               ),
@@ -188,7 +188,7 @@ class _PaymentMethodsState extends State<PaymentMethods> {
                 BoxShadow(
                   blurRadius: 1.5,
                   spreadRadius: 1.5,
-                  color: Colors.grey[200]!,
+                  color: Colors.green[200]!,
                 ),
               ],
             ),
@@ -217,7 +217,7 @@ class _PaymentMethodsState extends State<PaymentMethods> {
                     BoxShadow(
                       blurRadius: 1.5,
                       spreadRadius: 1.5,
-                      color: Colors.grey[200]!,
+                      color: Colors.green[200]!,
                     ),
                   ],
                 ),
@@ -241,7 +241,7 @@ class _PaymentMethodsState extends State<PaymentMethods> {
                     BoxShadow(
                       blurRadius: 1.5,
                       spreadRadius: 1.5,
-                      color: Colors.grey[200]!,
+                      color: Colors.green[200]!,
                     ),
                   ],
                 ),

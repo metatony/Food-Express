@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           cursorColor: primaryColor,
         ),
         tabBarTheme: TabBarTheme(
-          labelColor: Colors.grey[300],
+          labelColor: Colors.green[300],
           unselectedLabelColor: whiteColor,
         ),
       ),

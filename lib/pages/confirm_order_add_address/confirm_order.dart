@@ -124,7 +124,7 @@ class _ConfirmOrderState extends State<ConfirmOrder> {
           // Delivery Time Start
           Container(
             padding: EdgeInsets.all(fixPadding),
-            color: Colors.grey.withOpacity(0.1),
+            color: Colors.green.withOpacity(0.1),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -452,7 +452,7 @@ class _ConfirmOrderState extends State<ConfirmOrder> {
         Container(
           width: width,
           padding: EdgeInsets.all(fixPadding),
-          color: Colors.grey.withOpacity(0.1),
+          color: Colors.green.withOpacity(0.1),
           child: Text(
             'Add Voucher',
             style: greyHeadingStyle,
@@ -510,7 +510,7 @@ class _ConfirmOrderState extends State<ConfirmOrder> {
         Container(
           width: width,
           padding: EdgeInsets.all(fixPadding),
-          color: Colors.grey.withOpacity(0.1),
+          color: Colors.green.withOpacity(0.1),
           child: Text(
             'Note',
             style: greyHeadingStyle,
@@ -525,7 +525,7 @@ class _ConfirmOrderState extends State<ConfirmOrder> {
             decoration: InputDecoration(
               hintText: 'Enter Note Here',
               border: InputBorder.none,
-              fillColor: Colors.grey.withOpacity(0.1),
+              fillColor: Colors.green.withOpacity(0.1),
               filled: true,
             ),
           ),
@@ -558,7 +558,7 @@ class _ConfirmOrderState extends State<ConfirmOrder> {
                   borderRadius: BorderRadius.circular(10.0),
                   border: Border.all(
                       width: 1.0,
-                      color: (visa) ? primaryColor : Colors.grey.shade300),
+                      color: (visa) ? primaryColor : Colors.green.shade300),
                 ),
                 child: Stack(
                   children: <Widget>[
@@ -628,7 +628,7 @@ class _ConfirmOrderState extends State<ConfirmOrder> {
                   border: Border.all(
                       width: 1.0,
                       color:
-                          (masterCard) ? primaryColor : Colors.grey.shade300),
+                          (masterCard) ? primaryColor : Colors.green.shade300),
                 ),
                 child: Stack(
                   children: <Widget>[

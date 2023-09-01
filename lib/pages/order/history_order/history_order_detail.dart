@@ -70,7 +70,7 @@ class _HistoryOrderDetailState extends State<HistoryOrderDetail> {
           // Delivery Time Start
           Container(
             padding: EdgeInsets.all(fixPadding),
-            color: Colors.grey.withOpacity(0.1),
+            color: Colors.green.withOpacity(0.1),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -172,7 +172,7 @@ class _HistoryOrderDetailState extends State<HistoryOrderDetail> {
                 BoxShadow(
                     blurRadius: 1.0,
                     spreadRadius: 1.0,
-                    color: Colors.grey[300]!),
+                    color: Colors.green[300]!),
               ],
             ),
             child: Row(

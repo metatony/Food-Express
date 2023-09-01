@@ -23,7 +23,7 @@ class _ReviewTabDataState extends State<ReviewTabData> {
           height: 1.5,
           width: width - 20.0,
           margin: EdgeInsets.only(right: fixPadding, left: fixPadding),
-          color: Colors.grey[300],
+          color: Colors.green[300],
         ),
         heightSpace,
         ReviewSection()

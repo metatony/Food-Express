@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 Color scaffoldBgColor = Color(0xFFF4F4F4);
 Color primaryColor = Colors.green.shade900;
 Color darkPrimaryColor = Colors.green;
-Color greyColor = Colors.grey;
+Color greyColor = Colors.green;
 Color whiteColor = Colors.white;
-Color blackColor = Colors.black;
-Color lightGreyColor = Colors.grey.withOpacity(0.3);
+Color blackColor = Colors.green;
+Color lightGreyColor = Colors.green.withOpacity(0.7);
 //Color(0xFFF2647C);
 //Color(0xFFCA445D)
 double fixPadding = 10.0;
@@ -44,7 +44,7 @@ TextStyle greyHeadingStyle = TextStyle(
 
 TextStyle blueTextStyle = TextStyle(
   fontSize: 18.0,
-  color: Colors.blue,
+  color: Colors.lightGreenAccent,
   fontFamily: 'Roboto',
   fontWeight: FontWeight.w400,
 );
@@ -93,7 +93,7 @@ TextStyle priceStyle = TextStyle(
 
 TextStyle lightGreyStyle = TextStyle(
   fontSize: 15.0,
-  color: Colors.grey.withOpacity(0.6),
+  color: Colors.green.withOpacity(0.6),
   fontFamily: 'Roboto',
   fontWeight: FontWeight.w500,
 );
